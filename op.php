@@ -1,7 +1,7 @@
 <?php
-$x=$_POST("one");
-$y=$_GET("two");
-$op=$_GET("operator");
+$x = $_POST["one"];
+$y = $_POST["two"];
+$op =  $_POST["operator"];
 
 
 
@@ -26,7 +26,7 @@ switch ($op) {
         break;
 }
 
-echo "El resultado es: ".$result;
+echo "El resultado es: ".$result ;
 
 
 

@@ -9,10 +9,10 @@
 </head>
 <body>
 
-<form action="op.php">
+<form action="#" method="post">
 
-    <label> 1
-    <input type="number" name="one">
+    <label> Ingrese un valor
+    <input type="number" id="one" name="one">
     </label>
 
     <select name="operator">
@@ -22,15 +22,13 @@
         <option value="/">/</option>
     </select>
 
-    <label> 2
+    <label> Ingrese un valor
         <input type="number" name="two">
     </label>
 
     <input type="submit">
 
 </form>
-
-
 
 
 </body>
